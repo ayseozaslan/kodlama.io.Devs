@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="net.bytebuddy.implementation.bytecode.Throw"/>
+    <fullyQualifiedTypeName name="Kodlama.io.Devs.Demo.dataAccess.concretes.InMemoryProgrammingLanguageRepository"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="Kodlama.io.Devs.Demo.entities.concretes.ProgrammingLanguage"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="Kodlama.io.Devs.Demo.busıness.abstracts.ProgrammingLanguageService"/>
+    <fullyQualifiedTypeName name="Kodlama.io.Devs.Demo.dataAccess.abstracts.ProgrammingLanguageRepository"/>
+</qualifiedTypeNameHistroy>

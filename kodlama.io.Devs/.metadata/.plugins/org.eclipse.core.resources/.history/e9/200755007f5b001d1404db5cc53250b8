@@ -1,0 +1,20 @@
+package Kodlama.io.Devs.Demo.wepApi.controllers;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import Kodlama.io.Devs.Demo.busıness.abstracts.ProgrammingLanguageService;
+
+@RestController
+@RequestMapping("/api/programmingLanguages")
+public class ProgrammingLanguagesController {
+
+	private ProgrammingLanguageService programmingLanguageService;
+
+	public ProgrammingLanguagesController(ProgrammingLanguageService programmingLanguageService) {
+		
+		this.programmingLanguageService = programmingLanguageService;
+	}
+	
+	
+}

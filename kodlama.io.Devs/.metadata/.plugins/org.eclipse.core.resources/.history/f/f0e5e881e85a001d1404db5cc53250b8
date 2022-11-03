@@ -1,0 +1,53 @@
+package Kodlama.io.Devs.Demo.busıness.concretes;
+
+import java.util.List;
+
+import Kodlama.io.Devs.Demo.busıness.abstracts.ProgrammingLanguageService;
+import Kodlama.io.Devs.Demo.dataAccess.abstracts.ProgrammingLanguageRepository;
+import Kodlama.io.Devs.Demo.entities.concretes.ProgrammingLanguage;
+
+public class ProgrammingLanguageManager implements ProgrammingLanguageService{
+
+	private ProgrammingLanguageRepository programmingLanguageRepository;
+
+	@Override
+	public List<ProgrammingLanguage> getAll() {
+	
+		return null;
+	}
+
+	@Override
+	public void add(ProgrammingLanguage languages) throws Exception  {
+		if(languages==null) {
+			throw new Exception("The programming language cannot be passed empty");
+			
+			
+		}
+		for(ProgrammingLanguage l1:programmingLanguageRepository.getAll()) {
+			if(l1.getName()==l1.getName()) {
+				throw new Exception("names cannot be repeated");
+			}
+		}
+		
+		
+	}
+
+	@Override
+	public void delete(int id) {
+		this.programmingLanguageRepository.delete(id);
+		
+	}
+
+	@Override
+	public void update(int id, String name) {
+	
+		this.programmingLanguageRepository.update(id,name);
+	}
+
+	@Override
+	public ProgrammingLanguage getById(int id) {
+		this.programmingLanguageRepository.getById(id);
+		return null;
+	}
+
+}

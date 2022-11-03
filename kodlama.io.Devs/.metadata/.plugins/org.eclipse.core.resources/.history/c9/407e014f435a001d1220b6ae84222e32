@@ -1,0 +1,40 @@
+package Kodlama.io.Devs.Demo.busıness.concretes;
+
+import java.util.List;
+
+import Kodlama.io.Devs.Demo.busıness.abstracts.ProgrammingLanguageService;
+import Kodlama.io.Devs.Demo.entities.concretes.ProgrammingLanguage;
+
+public class ProgrammingLanguageManager implements ProgrammingLanguageService{
+
+	@Override
+	public List<ProgrammingLanguage> getAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void add(ProgrammingLanguage languages) throws Exception {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void delete(int id) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void update(int id, String name) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public ProgrammingLanguage getById(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
